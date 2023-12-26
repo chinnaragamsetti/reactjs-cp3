@@ -1,4 +1,3 @@
-// Write your code here.
 
 import './index.css'
 
@@ -16,4 +15,5 @@ const Box = props => {
   )
 }
 export default Box
+
 
