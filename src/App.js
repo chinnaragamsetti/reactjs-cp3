@@ -25,10 +25,13 @@ const bannerCardsList = [
 
 const App = () => (
   <div className="mainContainer">
-    {bannerCardsList.map(eachBanner => (
-      <Box bannerDetails={eachBanner} key={eachBanner.id} />
-    ))}
+    <ul className="bannerCardlist">
+      {bannerCardsList.map(eachBanner => (
+        <Box bannerDetails={eachBanner} key={eachBanner.id} />
+      ))}
+    </ul>
   </div>
 )
 
 export default App
+
