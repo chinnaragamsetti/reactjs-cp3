@@ -20,6 +20,13 @@
 
 /* Write your code here. */
 
+.bannerCardItem {
+  border: 1px solid #cbced2;
+  width: 100%;
+  list-style-type: none;
+  padding: 30px;
+}
+
 .heading {
   font-family: 'Roboto';
   font-size: 30px;
