@@ -6,11 +6,14 @@ const Box = props => {
   const {bannerDetails} = props
   const {headerText, description, className} = bannerDetails
   return (
-    <div className={className}>
-      <h1 className="heading">{headerText}</h1>
-      <p className="paragraph">{description}</p>
-      <button className="button">Show more</button>
-    </div>
+    <li className={`${className} bannerCardItem`}>
+      <div>
+        <h1 className="heading">{headerText}</h1>
+        <p className="paragraph">{description}</p>
+        <button className="button">Show more</button>
+      </div>
+    </li>
   )
 }
 export default Box
+
