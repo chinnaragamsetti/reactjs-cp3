@@ -20,8 +20,8 @@
 
 /* Write your code here. */
 
+
 .bannerCardItem {
-  border: 1px solid #cbced2;
   width: 100%;
   list-style-type: none;
   padding: 30px;
@@ -29,21 +29,23 @@
 
 .heading {
   font-family: 'Roboto';
-  font-size: 30px;
-  color: #64748b;
+  font-size: 25px;
+  color: #326a9d;
 }
 .paragraph {
-  font-size: 20px;
-  color: #cbced2;
+  font-size: 15px;
+  color: #64748b;
   font-family: 'Roboto';
 }
 .button {
-  font-size: 15px;
+  font-size: 10px;
   font-family: 'Roboto';
   color: #326a9d;
   background-color: transparent;
-  border-witdh: 2px;
+  border-witdh: 5px;
   border-style: solid;
   border-color: #326a9d;
-  padding: 8px;
+  border-radius: 3px;
+  padding: 3px;
 }
+
