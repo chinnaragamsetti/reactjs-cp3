@@ -14,9 +14,11 @@ body {
 /* Write your code here. */
 
 .mainContainer {
-  padding: 20px;
+  min-height: 100vh;
+  background-color: antiquewhite;
   display: flex;
-  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .bannerCardlist {
@@ -25,4 +27,6 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 90%;
+  padding-left: 0px;
 }
+
